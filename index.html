@@ -5,8 +5,16 @@
    <style>
 	.container {display: flex;
 		align-items: stretch;
-		justify-content: center;
+		justify-content: flex-start;
+		flex-direction: row;
+		
 	     }
+	   .aside
+	   {order: -1;	   
+	   }
+	   .article
+	   {order: 1;
+	   }
 	body,html {height: 100%; 
 		width: 100%; 
 		max-width: 960px;
