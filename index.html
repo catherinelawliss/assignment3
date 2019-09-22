@@ -17,7 +17,7 @@
 		font-size: 12px; 
 	   	margin:1.5% 0% 0% 0%;
 	   	box-size: border-box;
-		width: 30%
+		width: 30%;
 	
 	   }
 	   .article
@@ -29,6 +29,9 @@
 	   	box-size: border-box;
 		margin:1.5% 1.5% 0% 0%;
 		width: 67%;
+	   }
+	  .search {background-color: #000;
+		  color: #fff;
 	   }
 	body,html {height: 100%; 
 		width: 100%; 
@@ -96,7 +99,9 @@
   	  <li> <a href =”#”> CONTACT </a> </li>
 	 <li> <form> 
 		<input type = ‘text’ name = ‘search’ value = 'Search query' >
-		<input type = ‘submit’ value = Go! background-color: #000; color: #fff >
+		<div class = "search">
+		 <input type = ‘submit’ value = Go! >
+		 </div>
 		</form> </li>
 	</ul>
 </nav>
